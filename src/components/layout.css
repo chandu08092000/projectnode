@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    background-color: black;
+    height: 60px;
+    place-items: center;
+    padding: 10px;
+}.navlink{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10px;
+}
+.link{
+    text-decoration: none;
+    font-size: large;
+    margin-left: 10px;
+    padding: 30px;
+    color: aqua;
+    font-weight: 400;
+}
+.active{
+    color: white;
+}
+.link1{
+    text-decoration: none;
+    color: aqua;
+}
+.hometext{
+    margin: 50px;
+}
+.dt{
+    font-size:x-large;
+    font-weight:bolder;
+}
+#homespan{
+    color:rgb(106, 246, 55);
+}
+.dd{
+    margin: 20px;
+    font-weight: 400;
+    font-size: larger;
+
+}
+li{
+    margin-left: 50px;
+}
+
+#it{
+    margin: 50px;
+    float: left;
+    border-radius: 10px;
+}
+#it2{
+    margin: 50px;
+    float: right;
+    border-radius: 10px;
+}
+#about{
+    margin: 50px;
+    float: right;
+    border-radius: 10px;
+}
+#contacth1{
+    text-align: center;
+    color: rgb(65, 217, 70);
+    margin: 40px;
+}
+#contactfloat{
+    display: flex;
+    margin: 50px;
+}
+.contactmain{
+    margin-left: 30px;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    color: rgb(16, 16, 18);
+    padding: 10px;
+    padding-left: 50px;
+    font-size: x-large;
+    background-color: rgb(76, 180, 233);
+    border-radius: 30px;
+}
+.banner-card{
+    position: relative;
+}
+#service{
+    margin: 50px;
+}
+
+.login_form{
+    align-items: center;
+    margin: 50px;
+    background-color:lightblue;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    line-height: 2px;
+}
+.errors{
+    color: red;
+}
+.input{
+    border-radius: 40px 80px;
+    border: hidden;
+    padding: 30px 60px;
+    margin: 10px;
+    text-align: center ;
+    font-weight:600;
+    font-size:medium;
+
+}
